@@ -1,5 +1,5 @@
 FROM sequenceiq/hadoop-docker:2.7.1
-MAINTAINER Riyad Parvez
+MAINTAINER Riyad Parvez <riyad.parvez@gmail.com>
 
 USER root
 
