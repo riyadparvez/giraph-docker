@@ -22,7 +22,7 @@ ADD zoo.cfg $ZOOKEEPER_PREFIX/conf/zoo.cfg
 
 # add sample intput
 ADD tiny-graph.txt $GIRAPH_PREFIX/tiny-graph.txt
-
+ADD facebook_combined.txt $GIRAPH_PREFIX/facebook_combined.txt
 # our bootstrap file
 ADD giraph-bootstrap.sh /etc/giraph-bootstrap.sh
 RUN chown root:root /etc/giraph-bootstrap.sh && chmod 700 /etc/giraph-bootstrap.sh
